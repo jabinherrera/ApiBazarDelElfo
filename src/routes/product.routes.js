@@ -9,7 +9,7 @@ import {
 
 const router = Router();
 
-router.post('/products', authRequired , createProduct)
+router.post('/products', createProduct)
 router.put('/products/:productId',authRequired,  editProductById)
 router.delete('/products/:productId', authRequired, deleteProductById)
 router.get('/products', listProduct)

@@ -5,7 +5,6 @@ import authRoutes from './routes/auth.routes.js';
 import cors from 'cors';
 import envs from './configs/enviroments.js';
 import connect from './configs/mongo.js';
-import dotenv from 'dotenv';
 
 const {PORT} = envs;
 
